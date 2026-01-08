@@ -1,0 +1,4 @@
+-google chrome: 
+```
+paru google-chrome
+```
