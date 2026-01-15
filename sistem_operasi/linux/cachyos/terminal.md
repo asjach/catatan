@@ -30,3 +30,5 @@
 - free -h                   # RAM
 - df -h                     # Storage
 - lsblk                     # Disk & partisi
+- lsblk -f                  # Disk & Partisi dengan UUID nya
+
