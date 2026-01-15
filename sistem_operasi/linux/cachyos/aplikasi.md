@@ -1,4 +1,1 @@
--google chrome: 
-```
-paru google-chrome
-```
+-google chrome: `paru google-chrome`
