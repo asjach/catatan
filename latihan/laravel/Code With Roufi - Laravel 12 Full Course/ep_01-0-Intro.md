@@ -17,6 +17,8 @@
 # Episode 4: Understanding MVC
 menjelaskan konsep mvc
 
+# Episode 5: Penjelasan Route
+route ada di folder routes/web.php
 
 
 
