@@ -11,7 +11,7 @@
 - configurasi php.ini
     - aktifkan extension=zip
 - terminal (path project): `composer create-project laravel/laravel nama_project`
-- buku project di code editor
+- buku projectails di code editor
 - menjalankan web server bawaan: `php artisan serve`
 
 # Episode 4: Understanding MVC
@@ -20,5 +20,8 @@ menjelaskan konsep mvc
 # Episode 5: Penjelasan Route
 route ada di folder routes/web.php
 
+# Episode 6: Route Grouping & Naming
+melakukan organisasi route
+- Route::prefix('nama grup')->grup(callback);
 
 
