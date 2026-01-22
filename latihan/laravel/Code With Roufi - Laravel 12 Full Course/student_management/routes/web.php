@@ -36,3 +36,14 @@ Route::prefix("details")->group(function () {
         return "this is teacher";
     })->name('teachers-details');
 });
+
+
+// parametered route
+Route::get('student/{id}', function ($id) {
+    return 'student number '.$id;
+});
+
+// fallback
+Route::fallback(function () {
+    return 'this page is not found, please try again';
+});

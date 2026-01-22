@@ -22,6 +22,7 @@ route ada di folder routes/web.php
 
 # Episode 6: Route Grouping & Naming
 melakukan organisasi route
-- Route::prefix('nama grup')->grup(callback);
+- Route::prefix('nama grup')->grup(callback{});
 
-
+# Episode 7: Route Parameter & Fallback
+- untuk melihat seluruh route: `php artisan route:list`
