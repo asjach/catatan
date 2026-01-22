@@ -26,3 +26,9 @@ melakukan organisasi route
 
 # Episode 7: Route Parameter & Fallback
 - untuk melihat seluruh route: `php artisan route:list`
+
+# Episode 8: Intro to Blade
+blade = templating engine
+cara bikin view
+- bisa langsung create di folder
+- melalui terminal: `php artisan make:view nama_view`
