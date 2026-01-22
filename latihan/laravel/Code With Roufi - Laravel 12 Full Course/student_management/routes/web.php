@@ -7,11 +7,28 @@ Route::get('/', function () {
 });
 
 //episode 8
-Route::get('/about-us', function () {
-    return view('about');
+Route::get('about-us', function () {
+    //episode 9
+    $name='tester';
+    $id='2';
+    //cara 1: menggunakan witch
+    //variabel tersebut bisa diteruskan menggunakan with sehingga bisa digunakan di view
+    // return view('about')->with('name', $name)->with('email', $email );
+
+    //cara 2: mengguanakan fungsi compact
+    //return view('about', compact('name', 'email'));
+
+    //cara 3: 
+    return view('about', ['name'=>$name,'id'=>$id]);
+});
+
+Route::get('about-us/{name}/{id}', function($name, $id){
+    return view('about', compact('name', 'id'));
 });
 
 Route::view('contact-us', 'contact');
+Route::view('contact-us/{name}/{id}', 'contact');
+
 
 
 

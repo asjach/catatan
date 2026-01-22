@@ -32,3 +32,10 @@ blade = templating engine
 cara bikin view
 - bisa langsung create di folder
 - melalui terminal: `php artisan make:view nama_view`
+
+# Episode 9: Passing Data from route to view
+terdapat 3 cara:
+1. menggunakan with
+2. menggunakan fungsi compact
+3. menggunakan array
+
