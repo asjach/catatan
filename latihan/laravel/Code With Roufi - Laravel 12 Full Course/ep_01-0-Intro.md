@@ -39,3 +39,11 @@ terdapat 3 cara:
 2. menggunakan fungsi compact
 3. menggunakan array
 
+# Episode 10: Blade Directive
+komentar di blade: tidak muncul di html
+```{{--
+--}}```
+komentar html: muncul di kode html
+`<!-- komentar -->
+
+menulis kode laravel di blade pakai at (@)
